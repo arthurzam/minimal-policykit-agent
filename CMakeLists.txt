@@ -11,7 +11,7 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 find_package(Qt5 COMPONENTS DBus Widgets REQUIRED)
-find_package(PolkitQt5-1)
+find_package(PolkitQt5-1 REQUIRED)
 
 add_executable(${PROJECT_NAME}
     main.cpp
